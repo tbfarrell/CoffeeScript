@@ -1,0 +1,10 @@
+speed 100
+box yellow, 1000
+for [1..80]
+  pen purple, 10
+  fd 100
+  rt 88
+  for [1..2]
+    pen (random color), 10
+    rt 180, 4
+    fd 5
